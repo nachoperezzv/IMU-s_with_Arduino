@@ -131,6 +131,9 @@ void loop() {
       Serial.print(ang_x);        Serial.print(",");
       Serial.println(ang_y);    
 
+
+      Serial.println(dt);
+
       // Incremento del número de medidas tomadas
       medidas++;
 
@@ -230,6 +233,6 @@ void calc_ang_giros(){
 
   // Se guarda la última posición para recalcular la variación en la 
   // próxima medida
-  girosc_ang_x_prev=girosc_ang_x;
-  girosc_ang_y_prev=girosc_ang_y;
+  //girosc_ang_x_prev=girosc_ang_x;
+  //girosc_ang_y_prev=girosc_ang_y;
 }

@@ -6,7 +6,7 @@ clear,close,clc;
 % Se leen los datos del archivo a partir de la fila 1
 % y la columna 0. Esto se configura en el 2º y 3º
 % parametro de la función 'csvread'
-M = csvread('datos7.csv', 1, 0);
+M = csvread('datos4.csv', 1, 0);
 t = M(:,1) / 1000;
 AX  = M(:,2);
 AY  = M(:,3);
